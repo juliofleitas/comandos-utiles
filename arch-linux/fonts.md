@@ -1,0 +1,1 @@
+sudo pacman -S ttf-font-awesome
