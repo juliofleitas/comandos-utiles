@@ -20,3 +20,13 @@ chmod -R 777 /ruta/a/tu/carpeta
 
 
 rm -rf /ruta/a/tu/carpeta
+
+Si da error de permisos: 
+
+chmod -R 777 /ruta/a/tu/carpeta
+
+termux-setup-storage
+
+
+
+
