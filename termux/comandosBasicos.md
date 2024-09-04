@@ -21,3 +21,8 @@ mkdir (crear carpetas) (-p crear varias carpetas)
 nano (crear y leer archivos)
 
 rm (eliminar archivos) (-r eliminar carpetas)
+
+touch ~/.hushlogin
+
+echo 'PS1="jotta \w $"'  >> .bashrc
+
