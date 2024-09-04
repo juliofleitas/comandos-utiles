@@ -43,3 +43,94 @@ proot-distro login alpine --isolated
 Ejecuta un comando desde una distribución
 
 proot-distro login alpine --isolated -- pwd
+
+
+Supported distributions:
+
+  * Alpine Linux
+
+    Alias: alpine
+    Installed: no
+    Comment: Rolling release branch (edge).
+
+  * Arch Linux
+
+    Alias: archlinux
+    Installed: no
+    Comment: Currently available only AArch64 and ARM ports.
+
+  * Artix Linux
+
+    Alias: artix
+    Installed: no
+    Comment: Currently available only for AArch64.
+
+  * Debian (bookworm)
+
+    Alias: debian
+    Installed: no
+    Comment: Stable release.
+
+  * Debian (bullseye)
+
+    Alias: debian-oldstable
+    Installed: no
+    Comment: Old stable release.
+
+  * deepin
+
+    Alias: deepin
+    Installed: no
+    Comment: Supports only 64-bit CPUs.
+
+  * Fedora
+
+    Alias: fedora
+    Installed: no
+    Comment: Version 40. Supports only 64-bit CPUs.
+
+  * Manjaro
+
+    Alias: manjaro
+    Installed: no
+    Comment: Currently available only for AArch64.
+
+  * OpenKylin
+
+    Alias: openkylin
+    Installed: no
+    Comment: Version 'nile'. Supports only 64-bit CPUs.
+
+  * OpenSUSE
+
+    Alias: opensuse
+    Installed: no
+    Comment: Rolling release (Tumbleweed).
+
+  * Pardus
+
+    Alias: pardus
+    Installed: no
+    Comment: Version 'yirmibir'. Not available for ARM 32 bit.
+
+  * Ubuntu (24.04)
+
+    Alias: ubuntu
+    Installed: no
+    Comment: LTS release (noble). Not available for x86 32-bit (i686) CPUs.
+
+  * Ubuntu (22.04)
+
+    Alias: ubuntu-oldlts
+    Installed: no
+    Comment: Previous LTS release (jammy). Not available for x86 32-bit (i686) CPUs.
+
+  * Void Linux
+
+    Alias: void
+    Installed: no
+
+Install selected one with: proot-distro install <alias>
+
+
+
